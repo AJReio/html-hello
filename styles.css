@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(76, 154, 190);
+    width: 100vw;
+    height: 100vh;
+;  
+}
+.wrapper{
+    width: 25rem;
+    height: 35rem;
+    background-color: azure;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.user>h3, .user>p{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.option{
+        position: absolute;
+        left: 24rem;
+}
+
+.postContainer img{
+    width: 25rem;
+    margin-bottom: 5px;
+}
+
+.details{
+    font-size: 24px;
+    padding-left: 1rem;
+}
+
+.postFooter{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0,5rem;
+}
+
+.postInfo{
+    font-size: small;
+}
+
+.save{
+    position: absolute;
+    left: 23rem;
+}
